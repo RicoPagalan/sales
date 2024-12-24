@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monthly Sales</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sidebar Navbar -->
+  <div class="navbar" id="navbar">
+    <h2 style="margin-top: 20%;">Sales Dashboard</h2>
+    <div>
+      <a href="dashboard.html">Overview</a>
+      <a href="monthly-sales.html">Monthly Sales</a>
+      <a href="yearly-sales.html">Yearly Sales</a>
+      <a href="#settings">Settings</a>
+    </div>
+  </div>
+
+  <!-- Toggle Button -->
+  <button class="toggle-btn" id="toggleBtn">&#9776;</button>
+
+  <!-- Main Content -->
+  <div class="content" id="content">
+    <h1>Monthly Sales</h1>
+    <div class="chart-container">
+      <h3>Monthly Sales Distribution</h3>
+      <canvas id="pieChart"></canvas>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

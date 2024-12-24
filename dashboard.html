@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Sales Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sidebar Navbar -->
+  <div class="navbar" id="navbar">
+    <h2 style="margin-top: 20%;">Sales Dashboard</h2>
+    <div>
+      <a href="dashboard.html">Overview</a>
+      <a href="monthly-sales.html">Monthly Sales</a>
+      <a href="yearly-sales.html">Yearly Sales</a>
+      <a href="#settings">Settings</a>
+    </div>
+  </div>
+
+  <!-- Toggle Button -->
+  <button class="toggle-btn" id="toggleBtn">&#9776;</button>
+
+  <!-- Main Content -->
+  <div class="content" id="content">
+    <h1>Sales Overview</h1>
+    <div class="widgets">
+      <div class="widget">
+        <h3>Total Sales</h3>
+        <p>$75,000</p>
+      </div>
+      <div class="widget">
+        <h3>Active Users</h3>
+        <p>2,450</p>
+      </div>
+      <div class="widget">
+        <h3>New Customers</h3>
+        <p>150</p>
+      </div>
+      <div class="widget">
+        <h3>Revenue</h3>
+        <p>$23,000</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
